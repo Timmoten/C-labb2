@@ -20,7 +20,7 @@ public:
 	int getWorkingHours();
 	void changeWorkingHours(int workingHours);
 	Teacher(std::string typeName, bool isManager, int wage, int workingHours, bool isProgramManager, std::string mainSubject);
-	virtual ~Teacher();
+	//virtual ~Teacher();
 };
 
 #endif

@@ -1,21 +1,23 @@
 #ifndef EMPLOYMENT_H
 #define EMPLOYMENT_H
+
 #include <string>
-using namespace std;
+
+//using namespace std;
 
 class Employment
 {
 	private:
-		string typeName;
+		std::string typeName;
 		bool isManager;
 		int wage;
 		Employment();
 	public:
-		virtual string toString();
+		virtual std::string toString();
 		virtual int getWageType();
-		Employment(string typeName,bool isManager, int wage);
-		string getTypeName();
-		void changeTypeName(string typeName);
+		Employment(std::string typeName, bool isManager, int wage);
+		std::string getTypeName();
+		void changeTypeName(std::string typeName);
 		bool getIsManager();
 		void changeIsManager(bool isManager);
 		int getWage();

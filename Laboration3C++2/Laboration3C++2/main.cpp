@@ -7,7 +7,7 @@
 #include <crtdbg.h>
 #include <stdlib.h>
 #include "Container.h"
-//#include "Menu.h"
+#include "Menu.h"
 
 //using namespace std;
 	
@@ -19,16 +19,16 @@ int main()
 	//cout << t->toString() << endl;
 	//Employment* a = new Assistant("Labhandledare", 100, "Spelprogrammering", 98);
 	//cout << a->toString() << endl;
-	Employment* ta = new TA("Vaktmästare", false, 25000, 1700, false, true);
-	cout << ta->toString() << endl;
+	//Employment* ta = new TA("Vaktmästare", false, 25000, 1700, false, true);
+	//cout << ta->toString() << endl;
 	//delete t;
 	//delete a;
-	delete ta;
+	//delete ta;
 
 	/*Employment* empl = new Teacher("Adjunkt",
 		false, 35000, 1600, true, "Programmering");
 	Employee* e = new Employee("Georg Boole", 1820, empl);
-	cout << e->toString() << endl;*/	//Menu();
+	cout << e->toString() << endl;*/	Menu();
 
 	getchar();
 	return 0;

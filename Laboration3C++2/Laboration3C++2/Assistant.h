@@ -16,6 +16,7 @@ public:
 	int getPointsTaken();
 	void changePointsTaken(int pointsTaken);
 	Assistant(std::string typeName, int wage, std::string studyProgram, int pointsTaken);
+	
 };
 
 #endif

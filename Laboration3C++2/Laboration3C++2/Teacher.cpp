@@ -65,7 +65,7 @@ std::string Teacher::toString()
 	return total;
 }
 
-Teacher::~Teacher()
-{
+//Teacher::~Teacher()
+//{
 	//Does nothing
-}
+//}

@@ -79,7 +79,7 @@ Menu::Menu()
 				Employment* emp = new Teacher(type, chef, wage, time, pa, main);
 				Employee* e = new Employee(name, bY, emp);
 				team.add(e);
-				delete emp;
+				//delete emp;
 				delete e;
 
 				break;
@@ -118,7 +118,7 @@ Menu::Menu()
 				Employment* emp = new Assistant(type, wage, main, time);
 				Employee* e = new Employee(name, bY, emp);
 				team.add(e);
-				delete emp;
+				//delete emp;
 				delete e;
 
 				break;
@@ -170,7 +170,7 @@ Menu::Menu()
 				Employment* emp = new TA(type, chef, wage, time, pa, key);
 				Employee* e = new Employee(name, bY, emp);
 				team.add(e);
-				delete emp;
+				//delete emp;
 				delete e;
 
 				break;
