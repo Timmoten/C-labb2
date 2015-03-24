@@ -10,21 +10,21 @@ Container::Container()
 
 void Container::add(Employee* bob)
 {
-	if (nr == 0)
+	if (employees == nullptr)
 	{
 		employees = new Employee*[1];
 		employees[0] = bob;
-		nr++;
+		nr=nr+1;
 	}
 	else
 	{
 		Employee** tmp;
-		tmp = new Employee*[(this->nr + 1)];
-		for (int i = 0; i < this->nr; i++)
+		tmp = new Employee*[nr + 1];
+		for (int i = 0; i < nr; i++)
 		{
 			tmp[i] = this->employees[i];
 		}
-		delete[] this->employees; //med denna (2)
+		delete[] employees; //med denna (2)
 		tmp[this->nr] = bob; //byt plats enl assistent (tidigare 1)
 
 

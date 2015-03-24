@@ -80,7 +80,7 @@ Menu::Menu()
 				Employee* e = new Employee(name, bY, emp);
 				team.add(e);
 				//delete emp;
-				delete e;
+				//delete e;
 
 				break;
 			}
@@ -119,7 +119,7 @@ Menu::Menu()
 				Employee* e = new Employee(name, bY, emp);
 				team.add(e);
 				//delete emp;
-				delete e;
+				//delete e;
 
 				break;
 			}
@@ -171,7 +171,7 @@ Menu::Menu()
 				Employee* e = new Employee(name, bY, emp);
 				team.add(e);
 				//delete emp;
-				delete e;
+				//delete e;
 
 				break;
 			}
