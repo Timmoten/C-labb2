@@ -14,11 +14,11 @@ public:
 	virtual std::string toString();
 	virtual int getWageType();
 	std::string getMainSubject();
-	void changeMainSubject(std::string typeName);
-	bool getIsProgramManager();
-	void changeIsProgramManager(bool isManager);
-	int getWorkingHours();
-	void changeWorkingHours(int workingHours);
+	virtual void changeMainSubject(std::string typeName);
+	virtual bool getIsProgramManager();
+	virtual void changeIsProgramManager(bool isManager);
+	virtual int getWorkingHours();
+	virtual void changeWorkingHours(int workingHours);
 	Teacher(std::string typeName, bool isManager, int wage, int workingHours, bool isProgramManager, std::string mainSubject);
 	//virtual ~Teacher();
 };
