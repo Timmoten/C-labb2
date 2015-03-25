@@ -8,10 +8,11 @@
 #include <stdlib.h>
 #include "Container.h"
 #include "Menu.h"
+#include "Employment.h"
 
 //using namespace std;
 
-int Meny()
+/*void Meny()
 {
 	int check = 0;
 	int a;
@@ -111,7 +112,7 @@ int Meny()
 				chef = false;*/
 
 				//Assistent
-				cout << "\nUtbildningsprogram: ";
+				/*cout << "\nUtbildningsprogram: ";
 				cin >> main;
 				cout << "\nAvklarade poäng: ";
 				cin >> time;
@@ -193,8 +194,7 @@ int Meny()
 		}
 
 	} while (check == 0);
-	return 0;
-}
+}*/
 
 
 
@@ -214,7 +214,9 @@ int main()
 
 	//Employment* empl = new Teacher("Adjunkt",false, 35000, 1600, true, "Programmering");
 	//Employee* e = new Employee("Georg Boole", 1820, empl);
-	//cout << e->toString() << endl;	//delete e;	Menu();	//Menu menyn;	//int apa=menyn.Meny();
+	//cout << e->toString() << endl;	//delete e;	
+	Menu();
+
 
 	getchar();
 	return 0;
