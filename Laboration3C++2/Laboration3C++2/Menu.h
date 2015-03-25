@@ -7,6 +7,7 @@ class Menu
 {
 	public:
 		Menu();
+		int Meny();
 };
 
 #endif

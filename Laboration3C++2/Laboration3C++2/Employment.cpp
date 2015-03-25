@@ -89,3 +89,7 @@ void Employment::operator=(const Employment& other)
 	isManager = other.isManager;
 	wage = other.wage;
 }
+Employment::~Employment()
+{
+
+}
