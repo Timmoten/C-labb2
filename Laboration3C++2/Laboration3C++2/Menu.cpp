@@ -9,7 +9,8 @@
 
 //using namespace std;
 
-int Menu::Meny()
+//int Menu::Meny()
+Menu::Menu()
 {
 	int check = 0;
 	int a;
@@ -191,10 +192,10 @@ int Menu::Meny()
 		}
 
 	} while (check == 0);
-	return 0;
+	//return 0;
 }
 
-Menu::Menu()
+/*Menu::Menu()
 {
 
-}
+}*/

@@ -18,12 +18,18 @@ class Employment
 		void operator=(const Employment& other);
 		virtual std::string toString();
 		virtual int getWageType();
-		virtual std::string getTypeName();
+		/*virtual std::string getTypeName();
 		virtual void changeTypeName(std::string typeName);
 		virtual bool getIsManager();
 		virtual void changeIsManager(bool isManager);
 		virtual int getWage();
-		virtual void changeWage(int wage);
+		virtual void changeWage(int wage);*/
+		std::string getTypeName();
+		void changeTypeName(std::string typeName);
+		bool getIsManager();
+		void changeIsManager(bool isManager);
+		int getWage();
+		void changeWage(int wage);
 		
 		virtual ~Employment();
 };
