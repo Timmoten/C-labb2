@@ -25,10 +25,9 @@ int main()
 	//delete a;
 	//delete ta;
 
-	Employment* empl = new Teacher("Adjunkt",
-		false, 35000, 1600, true, "Programmering");
-	Employee* e = new Employee("Georg Boole", 1820, empl);
-	cout << e->toString() << endl;	delete e;	//Menu();
+	//Employment* empl = new Teacher("Adjunkt",false, 35000, 1600, true, "Programmering");
+	//Employee* e = new Employee("Georg Boole", 1820, empl);
+	//cout << e->toString() << endl;	//delete e;	//Menu();
 
 	getchar();
 	return 0;
